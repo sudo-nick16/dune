@@ -1,0 +1,33 @@
+.todo-container{
+    // background-color: yellow;
+    padding: 7px 5px;
+    height: fit-content;
+    margin-left: 15px;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 1em;
+    &:hover{
+        color: #678983;
+    }
+    >p{
+        word-wrap: inherit;
+        margin: 0;
+        padding: 0;
+    }
+    &::marker{
+        color: #181D31;
+    }
+    >img{
+        width: 20px;
+        height: 20px;
+        transform: translateZ(0);
+    }
+}
+.add{
+    max-width: 200px;
+}
+.completed{
+    text-decoration: line-through;
+    font-style: italic;
+    color: #678983;
+}

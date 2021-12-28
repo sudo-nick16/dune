@@ -1,0 +1,42 @@
+.todo-container {
+  padding: 7px 5px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin-left: 15px;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 1em;
+}
+
+.todo-container:hover {
+  color: #678983;
+}
+
+.todo-container > p {
+  word-wrap: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+.todo-container::marker {
+  color: #181D31;
+}
+
+.todo-container > img {
+  width: 20px;
+  height: 20px;
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+}
+
+.add {
+  max-width: 200px;
+}
+
+.completed {
+  text-decoration: line-through;
+  font-style: italic;
+  color: #678983;
+}
+/*# sourceMappingURL=Todo.css.map */

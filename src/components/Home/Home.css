@@ -1,0 +1,81 @@
+.home-container {
+  background-color: #F0E9D2;
+  width: 100%;
+  padding: 0 20px;
+}
+
+.home-container .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 10px 0px 0px 0px;
+  padding: 20px 0;
+}
+
+.home-container .header > img {
+  width: 50px;
+  height: 50px;
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+}
+
+.home-container .header > h1 {
+  margin-left: 20px;
+  font-size: 2.5em;
+  font-weight: 800;
+}
+
+.home-container .route {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 10px;
+}
+
+.home-container .route > img {
+  width: 40px;
+  height: 40px;
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+}
+
+.home-container .route > h2 {
+  font-size: 1.1em;
+  font-weight: 600;
+  margin-left: 12px;
+}
+
+.home-container .route > h2 > span:hover {
+  color: #678983;
+  cursor: pointer;
+}
+
+.home-container .route > h2 > input {
+  background-color: #F0E9D2;
+  outline: none;
+  border: none;
+  border-color: #E6DDC4;
+  border-bottom: 1px solid #c7bda3;
+  padding: 5px 0px;
+  font-size: 1em;
+  font-weight: 500;
+  color: #181D31;
+}
+/*# sourceMappingURL=Home.css.map */
