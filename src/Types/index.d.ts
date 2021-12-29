@@ -9,28 +9,6 @@ export interface todos {
     todos: todo[]
 }
 
-const fake = [
-    {
-        name: 'go to the gym',
-        slug: 'go-to-the-gym',
-        todos: [
-            {
-                id: 1,
-                content: 'do some pushups'
-            },
-            {
-                id: 2,
-                content: 'do some situps'
-            }
-        ]
-    }
-]
-
-console.log(JSON.stringify(fake))
-
-
-
-
 export interface TodosContext {
     setTodos: (todos: todos[] | Dispatch<SetStateAction<todos[]>>) => void;
     currentList: string;

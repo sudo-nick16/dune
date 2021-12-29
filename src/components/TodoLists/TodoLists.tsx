@@ -29,9 +29,9 @@ const TodoLists: React.FC = () => {
                                 const index = temp.findIndex(list => list.name === todolist.name)
                                 temp.splice(index, 1)
                                 console.log(index)
-                                // if(temp.length === 0){
-                                //     return []
-                                // }
+                                if(temp.length === 0){
+                                    localStorage.setItem('todos', JSON.stringify([]))
+                                }
                                 return temp
                             })
                             e.preventDefault()
