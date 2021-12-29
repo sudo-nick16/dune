@@ -25,39 +25,39 @@ function App():JSX.Element {
     setCurrentList((window.location.pathname.split('/')[1]).split('-').join(' ') || '')
     console.log(currentList)
 
-    const fake = [
-    {
-        name: 'go to the gym',
-        slug: 'go-to-the-gym',
-        todos: [
-            {
-                id: 1,
-                content: 'do some pushups'
-            },
-            {
-                id: 2,
-                content: 'do some situps'
-            }
-        ]
-    },
-    {
-      name: 'go to the gym',
-      slug: 'go-to-the-gym',
-      todos: [
-          {
-              id: 1,
-              content: 'do some pushups'
-          },
-          {
-              id: 2,
-              content: 'do some situps'
-          }
-      ]
-    }
-  ]
+  //   const fake = [
+  //   {
+  //       name: 'go to the gym',
+  //       slug: 'go-to-the-gym',
+  //       todos: [
+  //           {
+  //               id: 1,
+  //               content: 'do some pushups'
+  //           },
+  //           {
+  //               id: 2,
+  //               content: 'do some situps'
+  //           }
+  //       ]
+  //   },
+  //   {
+  //     name: 'go to the gym',
+  //     slug: 'go-to-the-gym',
+  //     todos: [
+  //         {
+  //             id: 1,
+  //             content: 'do some pushups'
+  //         },
+  //         {
+  //             id: 2,
+  //             content: 'do some situps'
+  //         }
+  //     ]
+  //   }
+  // ]
   
-  localStorage.setItem('todos', JSON.stringify(fake))
-  console.log(JSON.stringify(fake))
+  // localStorage.setItem('todos', JSON.stringify(fake))
+  // console.log(JSON.stringify(fake))
 
   }, [])
 

@@ -6,7 +6,7 @@ const useLocal = (prop: todos[]):[todos[], React.Dispatch<React.SetStateAction<t
     const [value, setValue] = useState(prop || [])
 
     useEffect(() => {
-        if(value.length > 0) {
+        if(value.length >= 0) {
             localStorage.setItem('todos', JSON.stringify(value))
         }
     },[value, setValue])
